@@ -43,7 +43,7 @@ $(document).ready(function (){
                 }
             }
 
-            http.open("POST", "http://localhost:8080/Stumgmt2024/student",true);
+            http.open("POST", "http://localhost:8080/student",true);
             http.setRequestHeader("Content-Type", "application/json");
             http.send(studentJSON);
 
